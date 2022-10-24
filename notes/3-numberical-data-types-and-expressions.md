@@ -45,7 +45,7 @@
                 - 2^k = 2^8 = 100000000
 - **Summary**: Inner representation of `int` numbers use the 2's complement method.
 
-## Python Literals
+### Python Literals
 - Forms of Data
     - Variables = x, y,...
         - Assigned values
@@ -53,7 +53,7 @@
         - No definition needed
     - Data assignments: Variable = Python literal
 
-## Python Arithmetic Operators
+### Python Arithmetic Operators
 - +, -, *, /, **, //, %
 - Exponents: 10^2=100 would be written as 10**2=10 in Python
 - Remainders: 
@@ -62,8 +62,9 @@
             - Python: 13//5
         - 13 mod 5 = 3
             - Python: 13%5
+- Unlike other programming languages, Python allows // and % for float numbers.
 
-## Summary
+### Summary
 **Kind of data**: Integer numbers
 
 **Inner representation**: The numbers are represented in memory using the 2's complement method.
@@ -71,3 +72,18 @@
 **Python literals**: 3, 4, -6, 3954,...
 
 **Arithmetic Operators**: +, -, *, /, **, // (div), % (mod)
+
+## The _float_ Data Type
+- Python accepts both 8.9753-3 and 0.008975 for float numbers
+
+### Summary
+**Kind of data**: Real numbers (includes decimals and fractions)
+
+**Inner representation**: The float numbers are represented by the floating point method (IEEE-754).
+
+**Python literals**: -3.4, 6.0, 0.008975, 8.9753-3,...
+
+**Arithmetic Operators**: +,-,*,/,**,//,%,...
+
+## Resources
+1. [Wikipedia: Floating-point arithmetic](https://en.wikipedia.org/wiki/Floating-point_arithmetic#Floating-point_numbers)
