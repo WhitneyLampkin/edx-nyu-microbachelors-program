@@ -53,6 +53,16 @@
         - No definition needed
     - Data assignments: Variable = Python literal
 
+## Python Arithmetic Operators
+- +, -, *, /, **, //, %
+- Exponents: 10^2=100 would be written as 10**2=10 in Python
+- Remainders: 
+    - Ex. 13/5 = 2R3
+        - 13 div 5 = 2
+            - Python: 13//5
+        - 13 mod 5 = 3
+            - Python: 13%5
+
 ## Summary
 **Kind of data**: Integer numbers
 
@@ -60,4 +70,4 @@
 
 **Python literals**: 3, 4, -6, 3954,...
 
-**Arithmetic Operators**:
+**Arithmetic Operators**: +, -, *, /, **, // (div), % (mod)
