@@ -12,3 +12,15 @@ Please enter the number of coins:
 The total is 6 dollars and 22 cents
 """
 
+print('Please enter the number of coins:')
+quarters = int(input('# of quarters: '))
+dimes = int(input('# of dimes: '))
+nickels = int(input('# of nickels: '))
+pennies = int(input('# of pennies '))
+
+total = 0
+
+dollars = 0
+cents = 0
+
+print('The total is ', dollars, 'dollars and ', cents, 'cents.')
