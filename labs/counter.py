@@ -27,8 +27,5 @@ total = ((quarters if quarters > 0 else 0) * 25) + ((dimes if dimes > 0 else 0) 
 dollars = total // 100
 cents = total % 100
 
-"""Testing"""
-print(total)
-
 """Print results"""
 print('The total is ', dollars, ' dollars and ', cents, ' cents')
