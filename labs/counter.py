@@ -22,10 +22,13 @@ nickels = int(input("# of nickels: "))
 pennies = int(input("# of pennies: "))
 
 
-"""Calculate """
-total = (quarters * .25) + (dimes * .10) + (nickels * .05) + (pennies * .01)
-dollars = int(total)
-cents = float(total - dollars)
+"""Calculate dollars & cents"""
+total = (quarters * 25) + (dimes * 10) + (nickels * 5) + (pennies * 1)
+dollars = total // 100
+cents = total % 100
 
+"""Testing"""
 print(total)
+
+"""Print results"""
 print('The total is ', dollars, ' dollars and ', cents, ' cents')
