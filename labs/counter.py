@@ -28,4 +28,4 @@ dollars = total // 100
 cents = total % 100
 
 """Print results"""
-print('The total is ', dollars, ' dollars and ', cents, ' cents')
+print('The total is', dollars, 'dollars and', cents, 'cents')
