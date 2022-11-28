@@ -23,7 +23,7 @@ pennies = int(input("# of pennies: "))
 
 
 """Calculate dollars & cents"""
-total = (quarters * 25) + (dimes * 10) + (nickels * 5) + (pennies * 1)
+total = ((quarters if quarters > 0 else 0) * 25) + ((dimes if dimes > 0 else 0) * 10) + ((nickels if nickels > 0 else 0) * 5) + ((pennies if pennies > 0 else 0) * 1)
 dollars = total // 100
 cents = total % 100
 
