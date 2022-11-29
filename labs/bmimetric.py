@@ -38,4 +38,4 @@ heightSquared = height*height
 bmi = (weight if weight > 0 else 0)/(heightSquared if heightSquared > 0 else 1)
 
 ## Result
-print('BMI is: ', bmi)
+print('BMI is:', bmi)

@@ -28,3 +28,18 @@ bmiimperial.py
 Score
 There are five tests each worth 2 points
 """
+
+## Get user inputs 
+weight = float(input("Please enter weight in pounds: "))
+height = float(input("Please enter height in inches: "))
+
+## Convert values
+weightConverted = weight*0.453592
+heightConverted = height*0.0254
+heightSquared = heightConverted*heightConverted
+
+## Calculate BMI
+bmi = (weightConverted if weightConverted > 0 else 0)/(heightSquared if heightSquared > 0 else 1)
+
+## Result
+print('BMI is:', bmi)
