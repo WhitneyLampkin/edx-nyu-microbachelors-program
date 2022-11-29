@@ -28,3 +28,14 @@ bmimetric.py
 Score
 There are five tests each worth 2 points
 """
+
+## Get user inputs 
+weight = int(input("Please enter weight in kilograms: "))
+height = float(input("Please enter height in meters: "))
+heightSquared = height*height
+
+## Calculate
+bmi = (weight if weight > 0 else 0)/(heightSquared if heightSquared > 0 else 1)
+
+## Result
+print('BMI is: ', bmi)
