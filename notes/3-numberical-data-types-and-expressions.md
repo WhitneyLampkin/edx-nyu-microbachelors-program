@@ -37,7 +37,7 @@
 - Approaches to represent signed numbers in binary (0s & 1s)
     - Sign and Magnitude: First bit on the left represents the sign and the rest the actual number
         - This isn't how programming languages do it
-    - Two's Complement
+    - **Two's Complement**
         - In a k-bit two's complement representation of a number
             - Positive int is (k-1)-bit unsigned binary representation, padded with a 0 to its left
             - Negative int: 2^k - additive inverse = neg int
