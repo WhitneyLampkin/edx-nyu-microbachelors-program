@@ -11,7 +11,17 @@ while (condition):
 
 ## For Statement
 ```python
-for item in range(low_end, high_end):
+for item in range(start, end):
+    <Do Something>
+```
+
+```python
+for item in range(end):
+    <Do Something>
+```
+
+```python
+for item in range(start, end, step):
     <Do Something>
 ```
 
