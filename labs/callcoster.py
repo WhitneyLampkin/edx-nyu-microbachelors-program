@@ -46,7 +46,7 @@ billedRate = float(0)
 cost = float(0)
 
 ## Calculate Cost
-if(startDay in ("Mon", "Tue" "Wed", "Thr", "Fri")):
+if(startDay in ("Mon", "Tue", "Wed", "Thr", "Fri")):
     if(800 <= int(startTime) <= 1800):
         billedRate = .4
     else:
