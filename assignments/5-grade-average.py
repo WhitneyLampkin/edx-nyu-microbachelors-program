@@ -11,3 +11,10 @@ for i in range(number_of_students):
 
 average = grades_sum / number_of_students
 print("The class average is", average)
+
+## Can also rewrite when the total number of students isn't known.
+
+"""
+while(seen_done == false)
+    <Do Something>
+"""
