@@ -32,4 +32,19 @@
 ## Boolean Operators
 
 - Not
+- And
 - Or
+
+## Boolean Expressions
+
+- Atomic Boolean Expressions
+    - Bool literals T/F
+    - Arithmetic expressions compared w/ relational operators: <,>,<=,>=
+- Compound Boolean Expressions
+    - Simple boolean expressions combined w/ boolean operators (not, and, or)
+
+## Boolean Control Flow
+
+### Branching
+
+- if statements
