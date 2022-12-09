@@ -48,3 +48,6 @@
 ### Branching
 
 - if statements
+    - Two way If Statements (This ensures only 1 code block is executed.)
+    - Sequential If Statements
+- if/else statements
