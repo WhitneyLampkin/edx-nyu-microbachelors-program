@@ -24,3 +24,20 @@ Score
 There are five tests each worth 2 points
 """
 
+user_input = input("Enter an odd length string: ")
+str_length = len(user_input)
+middleIndex = str_length//2
+
+## Find middle character
+middleCharacter = user_input[middleIndex:(middleIndex+1)]
+
+## Find first half
+firstHalf = user_input[:middleIndex]
+
+## Find second half
+secondHalf = user_input[(middleIndex+1):]
+
+## Display Results
+print("Middle character:", middleCharacter)
+print("First half:", firstHalf)
+print("Second half:", secondHalf)
