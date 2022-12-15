@@ -29,3 +29,13 @@ There are five tests each worth 2 points
 
 Note: You do not need any other code including the main method or any print statements. ONLY the isleapyear method is required. Otherwise, the autograder will fail and be unable to grade your code. (I.e., do not include the above example in your code.) The above example should be used be test your code but deleted or comment out upon submission.
 """
+
+def isleapyear(year):
+    result = False
+    if((year % 4 == 0) & (year % 100 != 0)):
+        result = True
+    if((year % 4 == 0) & (year % 100 == 0) & (year % 400 == 0)):
+        return True
+    return result
+
+print(isleapyear(1987))
